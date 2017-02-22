@@ -58,7 +58,7 @@ void loop() {
     char dig2;
     char dig1;
     char dig0;
-    int addrINT = 2;
+    int addrINT = 2;    //| syd -> 1 | nord ->2 |
     dig3 = addrINT/1000;
     dig2 = (addrINT-(dig3*1000))/100;
     dig1 = (addrINT-(dig3*1000)-(dig2*100))/10;
